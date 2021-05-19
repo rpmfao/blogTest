@@ -1,0 +1,27 @@
+---
+title: "Ola Mundo"
+author: "Rafael Peixoto"
+date: 2020-12-01T21:13:14-05:00
+categories: ["R"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(collapse = TRUE)
+```
+
+## Teste
+
+```{r}
+summary(Orange)
+```
+
+```{r echo=FALSE}
+library(ggplot2)
+ggplot(Orange) +
+  aes(x = age, y = circumference, color = Tree) +
+  geom_point() +
+  geom_line() +
+  guides(color = FALSE) +
+  theme_bw()
+```
