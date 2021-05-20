@@ -1,0 +1,15 @@
+---
+title: introducao
+author: Rafael Peixoto
+date: '2021-05-20'
+slug: introducao
+categories: [intro]
+tags: []
+---
+
+Esse é o meu primeiro post
+
+```{r}
+head(mtcars)
+```
+
